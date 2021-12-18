@@ -1,0 +1,125 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="css/style.css">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+			
+			
+			<!--- Preloader CSS --->
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" href="css/main.css">
+        <title>Yvonne Lee's Portfolio</title>
+      <div class="header">
+         <nav>  
+            <img class="logoImg" src="images/logo.png">
+            <ul>
+              <li> About</li>
+              <li> Skills</li>
+              <li> Work</li>
+              <li> Contact</li>
+            </ul> 
+         </nav>
+      </div>
+        
+    </head>
+    <body>
+	<!--- Loader Section--->
+	 <div id="demo-content">
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+	</div>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+
+	<div>
+		<img class="heroImg" src="images/hero.jpg"  id="BackgroundImageToggle">
+			<p>YDesign? Because design is fun!</p>
+		<button>Download Resume</button>
+	</div>
+    <!--  My UX Skills section coded using CSS flex -->
+      <section class="mySkills">
+        <h1> My UX Skills </h1>
+        <div class="flexContainer">
+          <div class="flexChildren">
+             <img class="myworkimg" src="images/uxskill1.png" width="50%">
+             <h3>User Research</h3>
+             <p>Use various methods to study target users with their needs and pain points, expose problems and find crucial information for design opportunities </p>
+          </div>
+          <div class="flexChildren">
+          <img class="myworkimg" src="images/uxskill2.png" width="50%">
+             <h3>User Interface Design</h3>
+             <p>Build interfaces that the user finds easy to access, understand use to facilitate actions, and are aesthetically pleasing.</p>
+          </div>
+          <div class="flexChildren">
+             <img class="myworkimg" src="images/uxskill3.png" width="50%">
+             <h3>User Experience Design</h3>
+             <p>Improve the usability, accessibility of the website and translate them into quality products and services with the end-user in mind. </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Work Section Constructed using CSS Grid -->
+      <section class="myWork">
+          <h1> My Work </h1>
+          <div class="workGrid">
+            <!-- First row --> 
+            <div class="workGrid-Item1"> <img class="myworkimg" src="images/irs.png" width="80%"></div>
+            <div class="workGrid-Item2"> 
+                <h4>Government agency website redesign</h4>
+                <p>
+                    <ul>
+                        <li>Redesign IRS.gov website</li>
+                        <li>Focus on the weakness government websites have and improve their efficiency</li>
+                    </ul>
+                </p>
+                <button> View The Project </button>
+            </div>
+            <!-- Second row -->
+            <div class="workGrid-Item1"> <img class="myworkimg" src="images/sheltertosoldiers1.png" width="15%" ><img class="myworkimg" src="images/sheltertosoldiers2.png" width="15%" ></div>
+            <div class="workGrid-Item2"> 
+                <h4>NGO website redesign </h4>
+                 <p>
+                    <ul>
+                        <li>Redesign https://www.sheltertosoldier.org/ website</li>
+                        <li>Creating an easy application process with clearly defined steps and achieving greater application success</li>                        
+                    </ul>
+                </p>
+                <button> View The Project </button>
+            </div>
+            <!-- Third row -->
+            <div class="workGrid-Item1"> <img class="myworkimg" src="images/logo.png"></div>
+            <div class="workGrid-Item2"> 
+               <h4>Mobile 3 </h4>
+                <p>Paragraph 3 </p>
+                <button> View The Project </button>
+            </div>
+          </div>
+          <h3> View all Projects </h3>
+      </section>
+
+    </body>
+    <footer>
+      <ul>
+        <li> About</li>
+        <li> Skills</li>
+        <li> Work</li>
+        <li> Contact</li>
+      </ul> 
+    </footer>
+
+    <!--
+    <script>
+
+    console.log("Hello world!");
+
+    </script>
+    -->
+	
+	<!---Loader JS--->
+    <script src="js/index.js"></script>
+	<script src="js/main.js"></script>
+
+</html>
